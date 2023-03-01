@@ -1,0 +1,48 @@
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    font-size: 90px;
+    /* text-decoration: underline; */
+    font-family: 'Press Start 2P', cursive;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    font-size: 30px;
+    font-family: 'Unbounded', cursive;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 3px white solid;
+    margin: 30px;
+    height: 50px;
+    width: 95px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input {
+    height: 50px;
+    width: 95px;
+    font-family: 'Unbounded', cursive;
+    font-size: 20px;
+}
