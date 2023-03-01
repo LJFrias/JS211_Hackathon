@@ -40,6 +40,15 @@ button {
     font-family: 'Press Start 2P', cursive;
 }
 
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:active {
+    opacity: 60%;
+}
+
 input {
     height: 50px;
     width: 95px;
